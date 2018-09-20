@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurveDrawer">
+        <attr name="curve_width" format="dimension"/>
+
+        <attr name="curve_direction" format="enum">
+            <enum name="curveInside" value="0"/>
+            <enum name="curveOutside" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
